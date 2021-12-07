@@ -1,0 +1,55 @@
+<!-- Links -->
+<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+<!-- Travelrythem  -->
+<div fxlayout="column"  style="height: 100%;font-family: 'Open Sans';">
+<!-- Navbar section -->
+<div fxlayout="row" style="width: 100%;background-color: #fff;height: 12%;box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);">
+   <img src="../assets/logo.png" style="width: 12%;margin-left: 1%;margin-top: 0.5%;"/>
+   <div style="margin-left: 50%;margin-top: -3%;font-size: 150%; color: #4F3460;" fxLayoutGap="15%">
+      <a routerLink="home">Home</a>
+      <a routerLink="rental">Rental</a>
+      <a routerLink="packages">Packages</a>
+      <a routerLink="contactus">Contact us</a>
+   </div>
+</div>
+<router-outlet>
+</router-outlet>
+<!-- Footer -->
+<div fxLayout="row" style="width: 100%;height: 30%;background-color: #4F3460;">
+   <div fxLayout="column">
+      <div>
+         <img src="../assets/logo white.png" style="width: 65%;margin-left: 10%;margin-top: 4%;"/>
+      </div>
+      <div>
+         <p style="color: #fff;font-size: larger;margin-left: 10%;line-height: 30px">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      </div>
+   </div>
+   <div fxLayout="column" style="color: #fff;text-align: center;margin-left: 15%;margin-top: 3%;">
+      <div >
+         <b>
+            <p>Follow</p>
+         </b>
+      </div>
+      <div fxLayout="row" fxLayoutGap="50%" style="margin-top: 10%;">
+         <div style="width: 10%;">
+            <img src="../assets/icons/Whatsapp icon.svg"/>
+         </div>
+         <div  style="width: 10%;">
+            <img src="../assets/icons/Facebook icon.png"/>
+         </div>
+         <div style="width: 10%;">
+            <img src="../assets/icons/insta icon.svg"/>
+         </div>
+      </div>
+   </div>
+   <div fxLayout="column" style="color: #fff;text-align: center;margin-left: 25%;margin-top: 3%;">
+      <div >
+         <b>
+            <p>Links</p>
+         </b>
+      </div>
+      <div>
+         <p style="color: #fff;font-size: larger;margin-left: 0%;margin-top: 10%;"> www.travelrhythem.com</p>
+      </div>
+   </div>
+</div>
